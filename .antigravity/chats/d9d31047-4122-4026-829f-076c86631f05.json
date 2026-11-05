@@ -52,6 +52,18 @@
       "created_at": "2026-11-05T00:19:34.213Z",
       "sender": "macOS",
       "is_cancelled": false
+    },
+    {
+      "id": "2074bc09-13c6-4f73-a7dc-5eecce18d618",
+      "role": "user",
+      "content": "buat landing page for data Science untuk jasa testing make full CD & penjelasannya Review these database queries (or the code that runs them) and optimize for correctness and performance:\n1. Point out N+1 queries, missing indexes, or unnecessary data fetched\n2. Suggest specific index(es) and query changes (with example SQL or ORM code)\n3. Note any transaction boundaries or locking concerns\n4. If applicable, suggest caching or read-model strategies\nKeep the same behavior; only improve efficiency and safety.Audit this UI code for accessibility and fix issues:\n1. Keyboard: all interactive elements focusable and in a logical order; no focus traps\n2. Screen readers: semantic structure (headings, landmarks, labels); images and icons have alt/text\n3. Color and contrast: no information by color alone; contrast ratios meet WCAG AA where applicable\n4. Focus and motion: visible focus ring; reduce or respect prefers-reduced-motion if needed\nList findings and provide the exact code changes.Explain this code so a junior developer can understand and maintain it:\n\n1. What problem it solves and where it fits in the bigger picture\n2. Walk through the main flow step by step in plain language\n3. Call out non-obvious decisions, gotchas, and dependencies\n4. Give one or two short examples of how to use or extend it\n\nKeep explanations concise; use analogies or diagrams (ASCII) only if they help.Improve this code for performance, readability, and maintainability without changing behavior:\n\n1. Performance: unnecessary work, allocations, or complexity; suggest concrete optimizations\n2. Readability: naming, structure, and comments; reduce nesting and magic values\n3. Maintainability: duplication, coupling, and testability; suggest small refactors\n4. For each change, state the benefit in one line\n\nOutput the refactored code and a short bullet list of what you changed and why.Please review my code with a focus on:\n\n1. Code quality and readability\n2. Potential bugs or edge cases\n3. Performance optimizations\n4. Security vulnerabilities\n5. Best practices and design patterns\n\nFor each issue found, explain why it's a problem and suggest a specific fix.Update this legacy code to modern language and library features:\n\n1. Replace deprecated APIs and old idioms with current best practices\n2. Use modern syntax (e.g. pattern matching, async/await, collection APIs) where it clearly improves clarity or safety\n3. Keep the same public behavior and avoid unnecessary structural changes\n4. List the replacements in a short summary (e.g. “X → Y for Z”)\n\nProvide the updated code and the summary.",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-05T00:20:25.000Z",
+      "sender": "ios",
+      "is_cancelled": false
     }
   ]
 }
